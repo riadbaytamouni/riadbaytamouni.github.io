@@ -3,27 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Riad Baytamouni — Software Engineer · AI &amp; Mobile Apps | UAE</title>
-  <meta name="description" content="Riad Baytamouni — Software Engineer (AI & Mobile Apps) in the UAE. 5+ years building and testing Flutter apps, web products, LLM features, AI agents and chatbots. Led an HR app used by 1,000+ monthly active users.">
+  <title data-i18n="meta.title">Riad Baytamouni — Software Engineer · AI &amp; Mobile Apps | Dubai</title>
+  <meta name="description" data-i18n-content="meta.desc" content="Riad Baytamouni, Software Engineer (AI &amp; Mobile Apps) in Dubai. 5+ years building AI agents, LLM features, chatbots and Flutter apps. Led an HR app used by 1,000+ monthly active users.">
   <meta name="theme-color" content="#0b1220">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Riad Baytamouni — Software Engineer · AI &amp; Mobile Apps">
-  <meta property="og:description" content="Software engineer in the UAE building and testing mobile, web and AI systems: Flutter apps, LLM features, AI agents and chatbots.">
-  <meta property="og:url" content="https://riadbaytamouni.github.io/">
-  <meta property="og:image" content="https://riadbaytamouni.github.io/profile.jpg">
-  <meta name="twitter:card" content="summary">
   <link rel="canonical" href="https://riadbaytamouni.github.io/">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314b8a6'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='%23052925'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="alternate" hreflang="en" href="https://riadbaytamouni.github.io/">
+  <link rel="alternate" hreflang="ar" href="https://riadbaytamouni.github.io/ar/">
+  <link rel="alternate" hreflang="x-default" href="https://riadbaytamouni.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Riad Baytamouni">
+  <meta property="og:title" data-i18n-content="meta.ogTitle" content="Riad Baytamouni — Software Engineer · AI &amp; Mobile Apps">
+  <meta property="og:description" data-i18n-content="meta.ogDesc" content="I build AI agents, LLM features and Flutter apps that ship to real users. Based in Dubai.">
+  <meta property="og:url" content="https://riadbaytamouni.github.io/">
+  <meta property="og:image" content="https://riadbaytamouni.github.io/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Riad Baytamouni — Software Engineer, AI &amp; Mobile Apps">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://riadbaytamouni.github.io/og.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Runs before paint: turn on animations only when JS works, and apply the saved/system theme without a flash.
+    (function () {
+      var d = document.documentElement, t = null;
+      d.classList.add("js");
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      d.dataset.theme = t;
+    })();
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Riad Bilal Baytamouni",
-    "alternateName": "Riad Baytamouni",
+    "alternateName": ["Riad Baytamouni", "رياض بيتموني"],
     "jobTitle": "Software Engineer — AI & Mobile Apps",
     "worksFor": { "@type": "Organization", "name": "BluGrass Technologies" },
     "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
@@ -31,7 +52,7 @@
     "telephone": "+971503078582",
     "nationality": "Lebanese",
     "knowsLanguage": ["ar", "en", "fr"],
-    "knowsAbout": ["Flutter", "Python", "LLM integration", "AI agents", "RAG", "Software testing"],
+    "knowsAbout": ["Flutter", "Python", "AI agents", "LLM integration", "RAG", "React.js", "Software testing"],
     "url": "https://riadbaytamouni.github.io/",
     "image": "https://riadbaytamouni.github.io/profile.jpg",
     "sameAs": [
@@ -44,11 +65,47 @@
 </head>
 <body>
 
+<!-- Icon sprite -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-lang" viewBox="0 0 24 24"><path d="M4 5h8M8 3v2M6 5c0 4 3 7 6 8M10 5c0 3-3 7-6 8M13 21l4-9 4 9M14.5 18h5"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></symbol>
+  <symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 4h6M2 13v3M22 13v3"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/></symbol>
+  <symbol id="i-passport" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 17h6"/></symbol>
+  <symbol id="i-bus" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 18v3M16 18v3"/><circle cx="8" cy="14.5" r="1"/><circle cx="16" cy="14.5" r="1"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+  <symbol id="i-search-doc" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5"/><path d="M14 3v5h5M19 8v3"/><circle cx="17" cy="17" r="3"/><path d="m21 21-1.8-1.8"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V3h9l9 9-9 9Z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></symbol>
+  <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2Z"/><path d="M9 8h6M9 12h6"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-4-3-6-4-10-2 2-3 4-3 6-1-1-2-2-2-4-3 3-5 5-5 8a7 7 0 0 0 7 7Z"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8Z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5Z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+</svg>
+
 <a href="#main" class="skip-link" data-i18n="nav.skip">Skip to content</a>
 
 <header class="navbar" id="navbar">
-  <nav class="nav-inner container" aria-label="Main navigation">
-    <a href="#hero" class="brand">Riad<span class="accent">.</span></a>
+  <nav class="nav-inner container" aria-label="Main navigation" data-i18n-aria="nav.label">
+    <!-- The brand mark stays "Riad." in Latin in both languages on purpose: it's the logo. -->
+    <a href="#hero" class="brand" aria-label="Riad Baytamouni, back to top" data-i18n-aria="nav.home">Riad<span class="accent">.</span></a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#about" data-i18n="nav.about">About</a></li>
       <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
@@ -56,15 +113,18 @@
       <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
       <li><a href="#education" data-i18n="nav.education">Education</a></li>
       <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      <li class="nav-cv-mobile"><a href="cv.pdf" download="Riad_Baytamouni_CV.pdf" data-i18n="nav.cv">Download CV</a></li>
     </ul>
     <div class="nav-actions">
-      <button id="langToggle" class="toggle-btn" aria-label="Switch language">عربي</button>
-      <button id="themeToggle" class="toggle-btn icon-btn" aria-label="Toggle dark / light mode">
-        <svg id="iconSun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg>
-        <svg id="iconMoon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" hidden><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <a href="cv.pdf" download="Riad_Baytamouni_CV.pdf" class="btn btn-sm btn-outline nav-cv"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="nav.cv">Download CV</span></a>
+      <a id="langToggle" class="toggle-btn lang-btn" href="ar/" hreflang="ar" lang="ar" aria-label="النسخة العربية">عربي</a>
+      <button id="themeToggle" class="toggle-btn icon-btn" type="button" aria-label="Switch to light mode">
+        <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
       </button>
-      <button id="menuToggle" class="toggle-btn icon-btn menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <button id="menuToggle" class="toggle-btn icon-btn menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks" data-i18n-aria="nav.menu">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
       </button>
     </div>
   </nav>
@@ -73,24 +133,36 @@
 <main id="main">
   <!-- HERO -->
   <section id="hero" class="hero">
-    <div class="container hero-inner">
-      <p class="hero-badges reveal">
-        <span class="badge">📍 <span data-i18n="hero.location">Dubai, UAE</span></span>
-        <span class="badge">🇱🇧 <span data-i18n="hero.nationality">Lebanese</span></span>
-      </p>
-      <h1 class="reveal" data-i18n="hero.name">Riad Baytamouni</h1>
-      <p class="hero-title reveal" data-i18n="hero.title">Software Engineer · AI &amp; Mobile Apps</p>
-      <p class="hero-sub reveal" data-i18n="hero.sub">I build and test mobile, web and AI systems from requirements to release: Flutter apps, LLM features, AI agents and chatbots for real business products.</p>
-      <div class="hero-cta reveal">
-        <a href="#projects" class="btn btn-primary" data-i18n="hero.viewProjects">View Projects</a>
-        <a href="cv.pdf" class="btn btn-outline" download="Riad_Baytamouni_CV.pdf" data-i18n="hero.downloadCV">Download CV</a>
-        <a href="#contact" class="btn btn-ghost" data-i18n="hero.contact">Contact</a>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-badges">
+          <span class="badge"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="hero.location">Dubai, UAE</span></span>
+          <span class="badge">🇱🇧 <span data-i18n="hero.nationality">Lebanese</span></span>
+          <!-- TODO(Riad): show "Open to work"? Remove the `hidden` attribute below to turn it on. -->
+          <span class="badge badge-open" hidden><span class="pulse" aria-hidden="true"></span><span data-i18n="hero.open">Open to work</span></span>
+        </p>
+        <h1 data-i18n="hero.name">Riad Baytamouni</h1>
+        <p class="hero-title" data-i18n="hero.title">Software Engineer · AI &amp; Mobile Apps</p>
+        <p class="hero-lead" data-i18n="hero.lead">I build AI agents, LLM features and Flutter apps that ship to real users.</p>
+        <p class="hero-sub" data-i18n="hero.sub">From requirements to release: mobile, web and AI systems for real business products, tested end to end.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" data-i18n="hero.viewProjects">View projects</a>
+          <a href="cv.pdf" class="btn btn-outline" download="Riad_Baytamouni_CV.pdf"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="hero.downloadCV">Download CV</span><span class="btn-hint" dir="ltr" data-i18n="hero.cvHint">PDF · 248 KB</span></a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero.contact">Contact</a>
+        </div>
+        <!-- TODO(Riad): swap/add stats with confirmed numbers (agents/chatbots shipped to production, hours saved…). -->
+        <dl class="stats">
+          <div class="stat"><dt><span dir="ltr">5+</span></dt><dd data-i18n="stats.years">years building software</dd></div>
+          <div class="stat"><dt><span dir="ltr">1,000+</span></dt><dd data-i18n="stats.mau">monthly active users on an HR app I led</dd></div>
+          <div class="stat"><dt><span dir="ltr">7</span></dt><dd data-i18n="stats.clients">client apps &amp; websites since 2024</dd></div>
+        </dl>
       </div>
-      <dl class="stats reveal">
-        <div class="stat"><dt><span dir="ltr">5+</span></dt><dd data-i18n="stats.years">years building software</dd></div>
-        <div class="stat"><dt><span dir="ltr">1,000+</span></dt><dd data-i18n="stats.mau">monthly active users on an app I led</dd></div>
-        <div class="stat"><dt><span dir="ltr">3</span></dt><dd data-i18n="stats.langs">languages: Arabic, English, French</dd></div>
-      </dl>
+      <div class="hero-photo">
+        <picture>
+          <source srcset="profile.webp" type="image/webp">
+          <img src="profile.jpg" alt="Portrait of Riad Baytamouni" data-i18n-alt="hero.photoAlt" width="400" height="400" fetchpriority="high">
+        </picture>
+      </div>
     </div>
   </section>
 
@@ -100,14 +172,20 @@
       <h2 class="section-title reveal" data-i18n="about.title">About</h2>
       <div class="about-grid">
         <div class="about-text reveal">
-          <p data-i18n="about.p1">I'm a software engineer with 5+ years of experience, currently an AI Engineer at BluGrass Technologies in Dubai. I started on mobile: I led a Flutter HR system covering attendance, payroll and leave management, used by 1,000+ monthly active users on Android and iOS.</p>
-          <p data-i18n="about.p2">Today I build LLM features, AI agents with function calling, and chatbots for business products, and I benchmark OpenAI, Claude and Llama models to pick the right one for each use case on accuracy, speed and cost.</p>
-          <p data-i18n="about.p3">I test everything I deliver: user flows, APIs, login and permissions, edge cases and AI outputs. When something breaks, I trace it to the root cause and run regression tests after the fix. I use AI coding tools, and I review and test all of their output before release.</p>
-          <p class="about-langs"><strong data-i18n="about.langsLabel">Languages:</strong> <span data-i18n="about.langs">Arabic (native) · English (professional) · French (professional, DELF B2)</span></p>
+          <p data-i18n="about.p1">I'm a software engineer with 5+ years of experience, now an AI Engineer at BluGrass Technologies in Dubai. I started on mobile, leading a Flutter HR system for attendance, payroll and leave management used by 1,000+ monthly active users on Android and iOS.</p>
+          <p data-i18n="about.p2">Today I build LLM features, AI agents with function calling, and chatbots for business products. I benchmark OpenAI, Claude and Llama models to choose the right one for each use case on accuracy, speed and cost.</p>
+          <p data-i18n="about.p3">I test everything I ship, from user flows and APIs to edge cases and AI outputs, and I trace bugs to their root cause. I use AI coding tools, and I review and test all of their output before release.</p>
         </div>
-        <div class="about-photo reveal">
-          <img src="profile.jpg" alt="Riad Baytamouni" width="320" height="320" loading="lazy" onerror="this.parentElement.classList.add('no-photo')">
-        </div>
+        <aside class="glance reveal" aria-labelledby="glanceTitle">
+          <h3 id="glanceTitle" data-i18n="glance.title">At a glance</h3>
+          <dl>
+            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="glance.based">Based in</span></dt><dd data-i18n="glance.basedV">Dubai, UAE</dd></div>
+            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg><span data-i18n="glance.now">Currently</span></dt><dd data-i18n="glance.nowV">AI Engineer, BluGrass Technologies</dd></div>
+            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg><span data-i18n="glance.focus">Focus</span></dt><dd data-i18n="glance.focusV">AI agents · LLM features · Flutter apps</dd></div>
+            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-lang"/></svg><span data-i18n="glance.langs">Languages</span></dt><dd data-i18n="glance.langsV">Arabic (native) · English &amp; French (professional, DELF B2)</dd></div>
+            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg><span data-i18n="glance.edu">Education</span></dt><dd data-i18n="glance.eduV">BSc Computer Science, Beirut Arab University</dd></div>
+          </dl>
+        </aside>
       </div>
     </div>
   </section>
@@ -116,45 +194,55 @@
   <section id="experience" class="section section-alt">
     <div class="container">
       <h2 class="section-title reveal" data-i18n="exp.title">Experience</h2>
+      <!-- TODO(Riad): add confirmed numbers to bullets (workflows automated, hours saved, chatbot volume, % resolved, cost cut, % fewer API calls). -->
       <div class="timeline">
         <article class="timeline-item reveal">
-          <div class="timeline-dot" aria-hidden="true"></div>
-          <h3>BluGrass Technologies</h3>
-          <p class="timeline-date" data-i18n="exp.blugrass.date">Feb 2021 – Present</p>
+          <div class="company">
+            <span class="avatar" aria-hidden="true">B</span>
+            <div>
+              <h3>BluGrass Technologies</h3>
+              <p class="timeline-date" data-i18n="exp.blugrass.date">Feb 2021 – Present · 5+ years</p>
+            </div>
+          </div>
           <div class="role">
-            <h4 data-i18n="exp.ai.role">AI Engineer</h4>
-            <p class="role-date" data-i18n="exp.ai.date">Nov 2024 – Present · Dubai, UAE</p>
+            <div class="role-head">
+              <h4 data-i18n="exp.ai.role">AI Engineer</h4>
+              <p class="role-date" data-i18n="exp.ai.date">Nov 2024 – Present · Dubai, UAE</p>
+            </div>
             <ul class="bullets">
               <li data-i18n="exp.ai.1">Integrated LLM features (OpenAI, Claude) into the company's HR system and web products.</li>
               <li data-i18n="exp.ai.2">Built AI agents with function calling that automate repetitive internal workflows.</li>
-              <li data-i18n="exp.ai.3">Built internal and customer-support chatbots: prompt design, conversation flow and response evaluation.</li>
-              <li data-i18n="exp.ai.4">Built an AI calling assistant that supports the sales team during live calls.</li>
-              <li data-i18n="exp.ai.5">Tested AI answers, agent tool selection and failure cases across varied inputs, and fixed issues before release.</li>
-              <li data-i18n="exp.ai.6">Benchmarked OpenAI, Claude and Llama models on accuracy, speed and cost for each use case.</li>
+              <li data-i18n="exp.ai.3">Built internal and customer-support chatbots, plus an AI calling assistant that supports the sales team during live calls.</li>
+              <li data-i18n="exp.ai.4">Benchmarked OpenAI, Claude and Llama on accuracy, speed and cost for each use case, and tested answers, tool selection and failure cases before every release.</li>
             </ul>
           </div>
           <div class="role">
-            <h4 data-i18n="exp.fs.role">Full Stack Developer</h4>
-            <p class="role-date" data-i18n="exp.fs.date">Feb 2021 – Nov 2024 · Lebanon</p>
+            <div class="role-head">
+              <h4 data-i18n="exp.fs.role">Full Stack Developer</h4>
+              <p class="role-date" data-i18n="exp.fs.date">Feb 2021 – Nov 2024 · Lebanon</p>
+            </div>
             <ul class="bullets">
               <li data-i18n="exp.fs.1">Led development of a Flutter/Firebase HR system for Android and iOS (attendance, payroll, leave management) used by 1,000+ monthly active users.</li>
-              <li data-i18n="exp.fs.2">Integrated Google and Apple Sign-In and push notifications (Firebase Cloud Messaging).</li>
-              <li data-i18n="exp.fs.3">Improved app performance by reducing API calls and adding local caching.</li>
-              <li data-i18n="exp.fs.4">Tested full user flows before each release, ran regression tests after changes, and traced bugs to their root cause.</li>
-              <li data-i18n="exp.fs.5">Turned product requirements into delivered features with product managers.</li>
-              <li data-i18n="exp.fs.6">Maintained the company websites, including performance and SEO.</li>
+              <li data-i18n="exp.fs.2">Added Google and Apple Sign-In and push notifications (Firebase Cloud Messaging), and improved performance by cutting API calls and adding local caching.</li>
+              <li data-i18n="exp.fs.3">Turned product requirements into shipped features with product managers, with full-flow and regression testing before each release.</li>
+              <li data-i18n="exp.fs.4">Maintained the company websites, including performance and SEO.</li>
             </ul>
           </div>
         </article>
         <article class="timeline-item reveal">
-          <div class="timeline-dot" aria-hidden="true"></div>
-          <h3 data-i18n="exp.dsc.company">Dubai Sports Council — Full Stack Developer (project)</h3>
-          <p class="timeline-date" data-i18n="exp.dsc.date">Aug 2024 · Dubai</p>
-          <ul class="bullets">
-            <li data-i18n="exp.dsc.1">Built an AI chatbot (ChatGPT API) that answered user questions about the council's services, with Twilio messaging.</li>
-            <li data-i18n="exp.dsc.2">Developed the React.js frontend and the KeystoneJS / PostgreSQL backend.</li>
-            <li data-i18n="exp.dsc.3">Tested chatbot answers across varied questions and verified the full flow from message to database.</li>
-          </ul>
+          <div class="company">
+            <span class="avatar avatar-alt" aria-hidden="true">DSC</span>
+            <div>
+              <h3 data-i18n="exp.dsc.company">Dubai Sports Council</h3>
+              <p class="timeline-date" data-i18n="exp.dsc.date">Aug 2024 · Full Stack Developer (project) · Dubai</p>
+            </div>
+          </div>
+          <div class="role">
+            <ul class="bullets">
+              <li data-i18n="exp.dsc.1">Built an AI chatbot (ChatGPT API) that answered user questions about the council's services, with Twilio messaging.</li>
+              <li data-i18n="exp.dsc.2">Developed the React.js frontend and the KeystoneJS / PostgreSQL backend, and verified the full flow from message to database.</li>
+            </ul>
+          </div>
         </article>
       </div>
     </div>
@@ -165,84 +253,117 @@
     <div class="container">
       <h2 class="section-title reveal" data-i18n="proj.title">Projects</h2>
 
-      <h3 class="subsection-title reveal" data-i18n="proj.work">Work projects</h3>
+      <h3 class="subsection-title reveal" data-i18n="proj.work">Client work</h3>
+      <!-- TODO(Riad): real 16:9 screenshots can replace the branded .thumb placeholders. -->
       <div class="projects-grid work-grid">
-        <article class="card reveal">
-          <p class="card-meta">2026</p>
-          <h4 data-i18n="work.1.name">Multi-channel AI business agent</h4>
-          <p data-i18n="work.1.desc">Handles bookings, trial sessions and daily operations for businesses over WhatsApp, Instagram DMs and Messenger.</p>
-          <ul class="chips" aria-label="Technologies"><li>WhatsApp</li><li>Instagram</li><li>Messenger</li></ul>
+        <!-- TODO(Riad): stack (LLM provider, framework, WhatsApp Cloud API?) and one result metric. -->
+        <article class="card card-featured reveal">
+          <div class="thumb thumb-ai" aria-hidden="true"><svg class="icon"><use href="#i-bot"/></svg><span class="thumb-label">WhatsApp · Instagram · Messenger</span></div>
+          <div class="card-body">
+            <p class="card-meta"><span class="pill-featured" data-i18n="proj.featured">Featured</span> 2026 · <span data-i18n="proj.client">Client project</span></p>
+            <h4 data-i18n="work.1.name">Multi-channel AI business agent</h4>
+            <p data-i18n="work.1.desc">An AI agent that works the front desk for businesses across WhatsApp, Instagram DMs and Messenger: it handles bookings and trial sessions and supports daily operations.</p>
+            <ul class="chips" aria-label="Channels" data-i18n-aria="proj.channels"><li>WhatsApp</li><li>Instagram DMs</li><li>Messenger</li></ul>
+          </div>
         </article>
 
+        <!-- TODO(Riad): platform, stack, your role, client type, result. -->
         <article class="card reveal">
-          <p class="card-meta">2024</p>
+          <div class="thumb thumb-mobile" aria-hidden="true"><svg class="icon"><use href="#i-passport"/></svg></div>
+          <p class="card-meta">2024 · <span data-i18n="proj.client">Client project</span></p>
           <h4 data-i18n="work.2.name">Saudi visa services app</h4>
-          <p data-i18n="work.2.desc">App for handling Saudi visa services.</p>
+          <p data-i18n="work.2.desc">A client app built to handle Saudi visa services.</p>
         </article>
 
+        <!-- TODO(Riad): platform, stack, features (live GPS? parent notifications?), users. -->
         <article class="card reveal">
-          <p class="card-meta">2024</p>
+          <div class="thumb thumb-mobile" aria-hidden="true"><svg class="icon"><use href="#i-bus"/></svg></div>
+          <p class="card-meta">2024 · <span data-i18n="proj.school">School, Lebanon</span></p>
           <h4 data-i18n="work.3.name">School bus tracking app</h4>
-          <p data-i18n="work.3.desc">Custom bus tracking app built for a school in Lebanon.</p>
+          <p data-i18n="work.3.desc">A custom bus tracking app built for a school in Lebanon.</p>
         </article>
 
         <article class="card reveal">
-          <p class="card-meta">2024 – 2026</p>
+          <div class="thumb thumb-web" aria-hidden="true"><svg class="icon"><use href="#i-globe"/></svg></div>
+          <p class="card-meta">2024 – 2026 · <span data-i18n="proj.4clients">4 client sites</span></p>
           <h4 data-i18n="work.4.name">Client websites</h4>
-          <p data-i18n="work.4.desc">Neurosurgery academy sites with online course enrollment, a Shopify e-commerce store and a law firm site.</p>
+          <p data-i18n="work.4.desc">Neurosurgery academy sites with online course enrollment, a Shopify store and a law firm site.</p>
           <ul class="site-list">
-            <li><a href="https://yasargil-mna.org" rel="noopener" target="_blank">yasargil-mna.org</a></li>
-            <li><a href="https://neurosurgeryacademy.org" rel="noopener" target="_blank">neurosurgeryacademy.org</a></li>
-            <li><a href="https://glitchlb.com" rel="noopener" target="_blank">glitchlb.com</a> <span class="muted">· Shopify</span></li>
-            <li><span>citylawfirm.co</span></li>
+            <li><a href="https://yasargil-mna.org" rel="noopener" target="_blank">yasargil-mna.org<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only" data-i18n="a11y.newTab">(opens in a new tab)</span></a></li>
+            <li><a href="https://neurosurgeryacademy.org" rel="noopener" target="_blank">neurosurgeryacademy.org<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only" data-i18n="a11y.newTab">(opens in a new tab)</span></a></li>
+            <li><a href="https://glitchlb.com" rel="noopener" target="_blank">glitchlb.com<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only" data-i18n="a11y.newTab">(opens in a new tab)</span></a> <span class="muted">· Shopify</span></li>
+            <!-- TODO(Riad): citylawfirm.co's SSL certificate expired (checked 20 Nov 2026). Link it once it's renewed. -->
+            <li><span class="muted">citylawfirm.co</span></li>
           </ul>
         </article>
       </div>
 
-      <h3 class="subsection-title reveal" data-i18n="proj.personal">Personal projects</h3>
-      <div class="projects-grid">
-        <article class="card reveal">
-          <h4 data-i18n="proj.1.name">Mostashar (مستشار) — Bilingual RAG document assistant</h4>
-          <p data-i18n="proj.1.desc">Arabic/English Q&amp;A over your documents with cited sources, user accounts and separate workspaces.</p>
-          <p class="tested"><strong data-i18n="proj.tested">Tested:</strong> <span data-i18n="proj.1.test">answer and citation accuracy, data separation between users, prompt-injection attacks.</span></p>
-          <ul class="chips" aria-label="Technologies"><li>Python</li><li>LangChain</li><li>ChromaDB</li><li>RAG</li></ul>
+      <div class="personal-head">
+        <h3 class="subsection-title reveal" data-i18n="proj.personal">Personal projects</h3>
+        <div class="filters reveal" role="group" aria-label="Filter projects" data-i18n-aria="filter.label">
+          <button type="button" class="filter is-active" data-filter="all" aria-pressed="true" data-i18n="filter.all">All</button>
+          <button type="button" class="filter" data-filter="ai" aria-pressed="false" data-i18n="filter.ai">AI</button>
+          <button type="button" class="filter" data-filter="mobile" aria-pressed="false" data-i18n="filter.mobile">Mobile</button>
+        </div>
+      </div>
+      <!-- TODO(Riad): GitHub / live demo / Hugging Face URL for each card (no public repos found on 20 Nov 2026). Add them as .card-links. -->
+      <div class="projects-grid" id="personalGrid">
+        <article class="card reveal" data-cat="ai">
+          <div class="thumb thumb-ai" aria-hidden="true"><svg class="icon"><use href="#i-search-doc"/></svg><span class="thumb-word" lang="ar">مستشار</span></div>
+          <p class="card-meta">AI · RAG</p>
+          <h4 data-i18n="proj.1.name">Mostashar — Bilingual RAG document assistant</h4>
+          <p data-i18n="proj.1.desc">Ask questions about your documents in Arabic or English and get answers with cited sources, with user accounts and separate workspaces.</p>
+          <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.1.q">Checked citation accuracy, user data separation and prompt injection</span></p>
+          <ul class="chips" aria-label="Technologies" data-i18n-aria="proj.tech"><li>Python</li><li>LangChain</li><li>ChromaDB</li></ul>
         </article>
 
-        <article class="card reveal">
-          <h4 data-i18n="proj.4.name">Lajna (لجنة) — Multi-agent application review system</h4>
-          <p data-i18n="proj.4.desc">AI agents screen applications, with human approval steps and a full audit trail.</p>
-          <p class="tested"><strong data-i18n="proj.tested">Tested:</strong> <span data-i18n="proj.4.test">agent handoffs and approval steps.</span></p>
-          <ul class="chips" aria-label="Technologies"><li>LangGraph</li><li>CrewAI</li><li>Pydantic</li></ul>
+        <article class="card reveal" data-cat="ai">
+          <div class="thumb thumb-ai" aria-hidden="true"><svg class="icon"><use href="#i-users"/></svg><span class="thumb-word" lang="ar">لجنة</span></div>
+          <p class="card-meta">AI · Multi-agent</p>
+          <h4 data-i18n="proj.4.name">Lajna — Multi-agent application review</h4>
+          <p data-i18n="proj.4.desc">AI agents screen incoming applications, a human approves each decision, and every step is logged in an audit trail.</p>
+          <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.4.q">Checked agent handoffs and approval steps</span></p>
+          <ul class="chips" aria-label="Technologies" data-i18n-aria="proj.tech"><li>LangGraph</li><li>CrewAI</li><li>Pydantic</li></ul>
         </article>
 
-        <article class="card reveal">
-          <h4 data-i18n="proj.3.name">Musannif (مصنّف) — Arabic feedback classifier</h4>
-          <p data-i18n="proj.3.desc">Fine-tuned a small open-source LLM with QLoRA, benchmarked it against GPT on accuracy and cost, and deployed it on Hugging Face Spaces.</p>
-          <ul class="chips" aria-label="Technologies"><li>QLoRA</li><li>Hugging Face</li><li>Python</li></ul>
+        <!-- TODO(Riad): benchmark result ("X% accuracy vs GPT at Y× lower cost") + Hugging Face Space URL. -->
+        <article class="card reveal" data-cat="ai">
+          <div class="thumb thumb-ai" aria-hidden="true"><svg class="icon"><use href="#i-tag"/></svg><span class="thumb-word" lang="ar">مصنّف</span></div>
+          <p class="card-meta">AI · QLoRA</p>
+          <h4 data-i18n="proj.3.name">Musannif — Arabic feedback classifier</h4>
+          <p data-i18n="proj.3.desc">A small open-source LLM fine-tuned with QLoRA to classify Arabic feedback, deployed on Hugging Face Spaces.</p>
+          <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.3.q">Benchmarked against GPT on accuracy and cost</span></p>
+          <ul class="chips" aria-label="Technologies" data-i18n-aria="proj.tech"><li>QLoRA</li><li>Hugging Face</li><li>Python</li></ul>
         </article>
 
-        <article class="card reveal">
-          <h4 data-i18n="proj.5.name">Mahdar (محضر) — Meeting minutes generator</h4>
-          <p data-i18n="proj.5.desc">Turns Arabic/English meeting audio into minutes with decisions and action items. Works offline, with Word/PDF export.</p>
-          <p class="tested"><strong data-i18n="proj.tested">Tested:</strong> <span data-i18n="proj.5.test">Arabic, English and mixed-language audio.</span></p>
-          <ul class="chips" aria-label="Technologies"><li>faster-whisper</li><li>OpenAI</li><li>Python</li></ul>
+        <article class="card reveal" data-cat="ai">
+          <div class="thumb thumb-ai" aria-hidden="true"><svg class="icon"><use href="#i-mic"/></svg><span class="thumb-word" lang="ar">محضر</span></div>
+          <p class="card-meta">AI · Whisper</p>
+          <h4 data-i18n="proj.5.name">Mahdar — Meeting minutes generator</h4>
+          <p data-i18n="proj.5.desc">Turns Arabic or English meeting audio into minutes with decisions and action items. Runs offline and exports to Word or PDF.</p>
+          <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.5.q">Checked on Arabic, English and mixed audio</span></p>
+          <ul class="chips" aria-label="Technologies" data-i18n-aria="proj.tech"><li>faster-whisper</li><li>OpenAI</li><li>Python</li></ul>
         </article>
 
-        <article class="card reveal">
-          <h4 data-i18n="proj.6.name">Fatoora Scan (فاتورة) — Receipt scanner &amp; expense app</h4>
-          <p data-i18n="proj.6.desc">Offline Flutter app that reads receipts with a vision LLM, with UAE VAT, budgets, reports and app lock.</p>
-          <p class="tested"><strong data-i18n="proj.tested">Tested:</strong> <span data-i18n="proj.6.test">extracted amounts and VAT checked against real receipts.</span></p>
-          <ul class="chips" aria-label="Technologies"><li>Flutter</li><li>Drift</li><li>Vision LLM</li></ul>
+        <article class="card reveal" data-cat="mobile ai">
+          <div class="thumb thumb-mobile" aria-hidden="true"><svg class="icon"><use href="#i-receipt"/></svg><span class="thumb-word" lang="ar">فاتورة</span></div>
+          <p class="card-meta">Flutter · AI</p>
+          <h4 data-i18n="proj.6.name">Fatoora Scan — Receipt scanner &amp; expenses</h4>
+          <p data-i18n="proj.6.desc">An offline Flutter app that reads receipts with a vision LLM, with UAE VAT, budgets, reports and app lock.</p>
+          <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.6.q">Amounts and VAT checked against real receipts</span></p>
+          <ul class="chips" aria-label="Technologies" data-i18n-aria="proj.tech"><li>Flutter</li><li>Drift</li><li>Vision LLM</li></ul>
         </article>
 
-        <article class="card reveal">
-          <h4 data-i18n="proj.7.name">Aada (عادة) — Bilingual habit tracker</h4>
-          <p data-i18n="proj.7.desc">Streaks, Hijri dates, encrypted backups and automated tests, in Arabic and English.</p>
-          <p class="tested"><strong data-i18n="proj.tested">Tested:</strong> <span data-i18n="proj.7.test">streak logic, date handling, backup and restore.</span></p>
-          <ul class="chips" aria-label="Technologies"><li>Flutter</li><li>Drift</li></ul>
+        <article class="card reveal" data-cat="mobile">
+          <div class="thumb thumb-mobile" aria-hidden="true"><svg class="icon"><use href="#i-flame"/></svg><span class="thumb-word" lang="ar">عادة</span></div>
+          <p class="card-meta">Flutter</p>
+          <h4 data-i18n="proj.7.name">Aada — Bilingual habit tracker</h4>
+          <p data-i18n="proj.7.desc">An Arabic/English habit tracker with streaks, Hijri dates, encrypted backups and automated tests.</p>
+          <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.7.q">Checked streak logic, dates and backup/restore</span></p>
+          <ul class="chips" aria-label="Technologies" data-i18n-aria="proj.tech"><li>Flutter</li><li>Drift</li></ul>
         </article>
       </div>
-      <p class="more-link reveal"><a href="https://github.com/riadbaytamouni" rel="noopener" target="_blank" data-i18n="proj.more">More on GitHub →</a></p>
+      <p class="more-link reveal"><a href="https://github.com/riadbaytamouni" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span data-i18n="proj.more">GitHub profile</span><span class="sr-only" data-i18n="a11y.newTab">(opens in a new tab)</span></a></p>
     </div>
   </section>
 
@@ -250,30 +371,26 @@
   <section id="skills" class="section section-alt">
     <div class="container">
       <h2 class="section-title reveal" data-i18n="skills.title">Skills</h2>
-      <div class="skills-groups">
-        <div class="skill-group reveal">
-          <h3 data-i18n="skills.lang">Languages</h3>
-          <ul class="chips"><li>Python</li><li>Dart</li><li>JavaScript</li><li>SQL</li></ul>
+      <div class="core reveal">
+        <p class="core-label" data-i18n="skills.core">Core stack</p>
+        <ul class="chips chips-core"><li>Flutter</li><li>Python</li><li data-i18n="skills.agents">AI agents &amp; function calling</li><li>RAG</li><li>React.js</li></ul>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3><span class="skill-icon" aria-hidden="true"><svg class="icon"><use href="#i-sparkle"/></svg></span><span data-i18n="skills.ai">AI &amp; LLMs</span></h3>
+          <ul class="chips"><li>OpenAI</li><li>Claude</li><li>LangChain</li><li>LangGraph</li><li>CrewAI</li><li>Hugging Face</li><li>Ollama</li><li data-i18n="skills.ft">QLoRA fine-tuning</li><li>Whisper</li></ul>
         </div>
-        <div class="skill-group reveal">
-          <h3 data-i18n="skills.mobile">Mobile &amp; Web</h3>
-          <ul class="chips"><li>Flutter (Android &amp; iOS)</li><li>React.js</li><li>REST APIs</li><li>JSON</li><li data-i18n="skills.mobile.i18n">Multilingual apps (Arabic RTL, English, French)</li></ul>
+        <div class="skill-card reveal">
+          <h3><span class="skill-icon" aria-hidden="true"><svg class="icon"><use href="#i-phone"/></svg></span><span data-i18n="skills.mobile">Mobile &amp; Web</span></h3>
+          <ul class="chips"><li>Dart</li><li>Android &amp; iOS</li><li>JavaScript</li><li data-i18n="skills.rtl">Arabic RTL &amp; multilingual apps</li><li>Firebase Cloud Messaging</li></ul>
         </div>
-        <div class="skill-group reveal">
-          <h3 data-i18n="skills.ai">AI</h3>
-          <ul class="chips"><li>OpenAI</li><li>Claude</li><li>LangChain</li><li>LangGraph</li><li>CrewAI</li><li>Hugging Face</li><li>Ollama</li><li>RAG</li><li data-i18n="chip.fc">Function calling</li><li data-i18n="skills.ai.ft">QLoRA fine-tuning</li><li>Whisper</li></ul>
+        <div class="skill-card reveal">
+          <h3><span class="skill-icon" aria-hidden="true"><svg class="icon"><use href="#i-db"/></svg></span><span data-i18n="skills.backend">Backend &amp; Data</span></h3>
+          <ul class="chips"><li>SQL</li><li>PostgreSQL</li><li>Firebase</li><li>SQLite</li><li>KeystoneJS</li><li>Twilio</li></ul>
         </div>
-        <div class="skill-group reveal">
-          <h3 data-i18n="skills.db">Databases</h3>
-          <ul class="chips"><li>PostgreSQL</li><li>Firebase</li><li>SQLite</li></ul>
-        </div>
-        <div class="skill-group reveal">
-          <h3 data-i18n="skills.test">Testing</h3>
-          <ul class="chips"><li data-i18n="skills.test.1">Functional &amp; end-to-end</li><li data-i18n="skills.test.2">API &amp; integration</li><li data-i18n="skills.test.3">Regression</li><li data-i18n="skills.test.4">Edge cases &amp; invalid inputs</li><li data-i18n="skills.test.5">AI output evaluation</li><li data-i18n="skills.test.6">Debugging &amp; root-cause analysis</li></ul>
-        </div>
-        <div class="skill-group reveal">
-          <h3 data-i18n="skills.tools">Tools</h3>
-          <ul class="chips"><li>Git/GitHub</li><li>GitHub Actions</li><li>Docker</li><li>Postman</li><li>Linux</li><li>Jira</li><li>Agile</li><li>Twilio</li></ul>
+        <div class="skill-card reveal">
+          <h3><span class="skill-icon" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span><span data-i18n="skills.tools">Testing &amp; Tools</span></h3>
+          <ul class="chips"><li data-i18n="skills.t1">E2E, API &amp; regression testing</li><li data-i18n="skills.t2">AI output evaluation</li><li>Git/GitHub</li><li>GitHub Actions</li><li>Docker</li><li>Postman</li><li>Linux</li><li>Jira</li></ul>
         </div>
       </div>
     </div>
@@ -282,38 +399,57 @@
   <!-- EDUCATION -->
   <section id="education" class="section">
     <div class="container">
-      <h2 class="section-title reveal" data-i18n="edu.title">Education &amp; Courses</h2>
-      <ul class="edu-list">
-        <li class="reveal"><strong data-i18n="edu.bsc">BSc Computer Science — Beirut Arab University, Beirut</strong> <span class="edu-date">2019 – 2022</span></li>
-        <li class="reveal"><strong>The Complete Agentic AI Engineering Course</strong> <span class="edu-date">2026</span></li>
-        <li class="reveal"><strong>LLM Engineering: Master AI &amp; Large Language Models</strong> <span class="edu-date">2025</span></li>
-        <li class="reveal"><strong>The AI Engineer Course: Complete AI Engineer Bootcamp</strong> <span class="edu-date">2025</span></li>
+      <h2 class="section-title reveal" data-i18n="edu.title">Education</h2>
+      <div class="edu-card reveal">
+        <span class="skill-icon edu-icon" aria-hidden="true"><svg class="icon"><use href="#i-cap"/></svg></span>
+        <div>
+          <h3 data-i18n="edu.bsc">BSc Computer Science</h3>
+          <p class="edu-school" data-i18n="edu.school">Beirut Arab University · Beirut, Lebanon</p>
+        </div>
+        <span class="edu-date">2019 – 2022</span>
+      </div>
+      <h3 class="subsection-title reveal" data-i18n="edu.certs">Certifications</h3>
+      <!-- TODO(Riad): course provider (Udemy?) and certificate link for each row. -->
+      <ul class="cert-list">
+        <li class="reveal"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span lang="en">The Complete Agentic AI Engineering Course</span><span class="edu-date">2026</span></li>
+        <li class="reveal"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span lang="en">LLM Engineering: Master AI &amp; Large Language Models</span><span class="edu-date">2025</span></li>
+        <li class="reveal"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span lang="en">The AI Engineer Course: Complete AI Engineer Bootcamp</span><span class="edu-date">2025</span></li>
       </ul>
     </div>
   </section>
 
   <!-- CONTACT -->
   <section id="contact" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title reveal" data-i18n="contact.title">Contact</h2>
-      <p class="contact-lead reveal" data-i18n="contact.lead">Hiring for an AI, mobile or full stack role, or need something built? The fastest way to reach me is email or WhatsApp.</p>
-      <div class="contact-strip reveal">
-        <div class="contact-item">
-          <a href="mailto:riad.b.baytamouni@gmail.com" class="contact-link">riad.b.baytamouni@gmail.com</a>
-          <button id="copyEmail" class="btn btn-sm btn-ghost" data-i18n="contact.copy" aria-label="Copy email address">Copy</button>
-        </div>
-        <a href="https://wa.me/971503078582" class="contact-link" rel="noopener" target="_blank"><span dir="ltr">+971 50 307 8582</span> (WhatsApp)</a>
-        <a href="https://www.linkedin.com/in/riad-baytamouni" class="contact-link" rel="noopener" target="_blank">LinkedIn</a>
-        <a href="https://github.com/riadbaytamouni" class="contact-link" rel="noopener" target="_blank">GitHub</a>
+    <div class="container cta reveal">
+      <h2 class="cta-title" data-i18n="contact.title">Let's build something</h2>
+      <p class="cta-lead" data-i18n="contact.lead">Hiring for an AI, mobile or full stack role, or need an AI agent or app built? Email or WhatsApp is the fastest way to reach me.</p>
+      <div class="cta-buttons">
+        <a href="mailto:riad.b.baytamouni@gmail.com" class="btn btn-primary btn-lg"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="contact.email">Email me</span></a>
+        <a href="https://wa.me/971503078582" class="btn btn-outline btn-lg" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp<span class="sr-only" data-i18n="a11y.newTab">(opens in a new tab)</span></a>
       </div>
+      <div class="cta-secondary">
+        <span class="cta-email" dir="ltr">riad.b.baytamouni@gmail.com</span>
+        <button id="copyEmail" type="button" class="icon-link" aria-label="Copy email address" data-i18n-aria="contact.copy"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button>
+        <a href="https://www.linkedin.com/in/riad-baytamouni" class="icon-link" rel="noopener" target="_blank" aria-label="LinkedIn (opens in a new tab)" data-i18n-aria="contact.linkedin"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+        <a href="https://github.com/riadbaytamouni" class="icon-link" rel="noopener" target="_blank" aria-label="GitHub (opens in a new tab)" data-i18n-aria="contact.github"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a>
+      </div>
+      <p class="cta-phone"><span data-i18n="contact.phone">Phone / WhatsApp:</span> <a href="tel:+971503078582" dir="ltr">+971 50 307 8582</a></p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
-  <p data-i18n="footer.made">Made with ❤️ in Dubai</p>
-  <p class="footer-copy">© <span id="year">2026</span> Riad Baytamouni</p>
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> <span data-i18n="footer.name">Riad Baytamouni · Dubai, UAE</span></p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/riad-baytamouni" class="icon-link" rel="noopener" target="_blank" aria-label="LinkedIn (opens in a new tab)" data-i18n-aria="contact.linkedin"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+      <a href="https://github.com/riadbaytamouni" class="icon-link" rel="noopener" target="_blank" aria-label="GitHub (opens in a new tab)" data-i18n-aria="contact.github"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a>
+      <a href="mailto:riad.b.baytamouni@gmail.com" class="icon-link" aria-label="Email" data-i18n-aria="contact.emailLabel"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a>
+    </div>
+  </div>
 </footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 
 <script src="script.js" defer></script>
 </body>
