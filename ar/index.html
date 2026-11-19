@@ -97,6 +97,7 @@
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
   <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></symbol>
   <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
   <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
   <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5Z"/></symbol>
   <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
@@ -118,7 +119,7 @@
       <li class="nav-cv-mobile"><a href="../cv.pdf" download="Riad_Baytamouni_CV.pdf" data-i18n="nav.cv">تحميل السيرة الذاتية</a></li>
     </ul>
     <div class="nav-actions">
-      <a href="../cv.pdf" download="Riad_Baytamouni_CV.pdf" class="btn btn-sm btn-outline nav-cv"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="nav.cv">تحميل السيرة الذاتية</span></a>
+      <a href="#contact" class="btn btn-sm btn-outline nav-cv"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="nav.hire">وظّفني</span></a>
       <a id="langToggle" class="toggle-btn lang-btn" href="../" hreflang="en" lang="en" aria-label="English version">EN</a>
       <button id="themeToggle" class="toggle-btn icon-btn" type="button" aria-label="Switch to light mode">
         <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
@@ -145,13 +146,13 @@
         </p>
         <h1 data-i18n="hero.name">رياض بيتموني</h1>
         <p class="hero-title" data-i18n="hero.title">مهندس برمجيات · الذكاء الاصطناعي وتطبيقات الهواتف</p>
-        <p class="hero-lead" data-i18n="hero.lead">أبني وكلاء ذكاء اصطناعي وخصائص LLM وتطبيقات Flutter تصل إلى مستخدمين حقيقيين.</p>
+        <p class="hero-lead" data-i18n="hero.lead">أبني وكلاء ذكاء اصطناعي، وخصائص <bdi>LLM</bdi>، وتطبيقات <bdi>Flutter</bdi> تصل إلى مستخدمين حقيقيين.</p>
         <p class="hero-sub" data-i18n="hero.sub">من المتطلبات حتى الإطلاق: أنظمة للهواتف والويب والذكاء الاصطناعي لمنتجات أعمال حقيقية، مختبرة من البداية إلى النهاية.</p>
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary" data-i18n="hero.viewProjects">استعرض المشاريع</a>
           <a href="../cv.pdf" class="btn btn-outline" download="Riad_Baytamouni_CV.pdf"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="hero.downloadCV">تحميل السيرة الذاتية</span><span class="btn-hint" dir="ltr" data-i18n="hero.cvHint">PDF · 248 KB</span></a>
-          <a href="#contact" class="btn btn-ghost" data-i18n="hero.contact">تواصل معي</a>
         </div>
+        <p class="hero-contact"><a href="#contact" data-i18n="hero.contact">أو تواصل معي ←</a></p>
         <!-- TODO(Riad): swap/add stats with confirmed numbers (agents/chatbots shipped to production, hours saved…). -->
         <dl class="stats">
           <div class="stat"><dt><span dir="ltr">5+</span></dt><dd data-i18n="stats.years">سنوات في بناء البرمجيات</dd></div>
@@ -269,33 +270,40 @@
           </div>
         </article>
 
-        <!-- TODO(Riad): platform, stack, your role, client type, result. -->
-        <article class="card reveal">
+        <!-- TODO(Riad): platform (Android/iOS/web), stack, your role, 2–3 key features, one result line. -->
+        <article class="card card-compact reveal">
           <div class="thumb thumb-mobile" aria-hidden="true"><svg class="icon"><use href="#i-passport"/></svg></div>
-          <p class="card-meta">2024 · <span data-i18n="proj.client">مشروع لعميل</span></p>
-          <h4 data-i18n="work.2.name">تطبيق خدمات التأشيرات السعودية</h4>
-          <p data-i18n="work.2.desc">تطبيق لعميل لإدارة خدمات التأشيرات السعودية.</p>
+          <div class="card-body">
+            <p class="card-meta">2024 · <span data-i18n="proj.client">مشروع لعميل</span></p>
+            <h4 data-i18n="work.2.name">تطبيق خدمات التأشيرات السعودية</h4>
+            <p data-i18n="work.2.desc">تطبيق لعميل لإدارة خدمات التأشيرات السعودية.</p>
+          </div>
         </article>
 
-        <!-- TODO(Riad): platform, stack, features (live GPS? parent notifications?), users. -->
-        <article class="card reveal">
+        <!-- TODO(Riad): platform, stack, features (live GPS? parent notifications? driver app?), users. -->
+        <article class="card card-compact reveal">
           <div class="thumb thumb-mobile" aria-hidden="true"><svg class="icon"><use href="#i-bus"/></svg></div>
-          <p class="card-meta">2024 · <span data-i18n="proj.school">مدرسة، لبنان</span></p>
-          <h4 data-i18n="work.3.name">تطبيق تتبّع الحافلات المدرسية</h4>
-          <p data-i18n="work.3.desc">تطبيق مخصص لتتبّع الحافلات لمدرسة في لبنان.</p>
+          <div class="card-body">
+            <p class="card-meta">2024 · <span data-i18n="proj.school">مدرسة، لبنان</span></p>
+            <h4 data-i18n="work.3.name">تطبيق تتبّع الحافلات المدرسية</h4>
+            <p data-i18n="work.3.desc">تطبيق مخصص لتتبّع الحافلات لمدرسة في لبنان.</p>
+          </div>
         </article>
 
-        <article class="card reveal">
-          <div class="thumb thumb-web" aria-hidden="true"><svg class="icon"><use href="#i-globe"/></svg></div>
-          <p class="card-meta">2024 – 2026 · <span data-i18n="proj.4clients">4 مواقع لعملاء</span></p>
-          <h4 data-i18n="work.4.name">مواقع إلكترونية للعملاء</h4>
-          <p data-i18n="work.4.desc">مواقع أكاديميات جراحة الأعصاب مع التسجيل في الدورات عبر الإنترنت، ومتجر على Shopify، وموقع لمكتب محاماة.</p>
-          <ul class="site-list">
-            <li><a href="https://yasargil-mna.org" rel="noopener" target="_blank">yasargil-mna.org<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a></li>
-            <li><a href="https://neurosurgeryacademy.org" rel="noopener" target="_blank">neurosurgeryacademy.org<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a></li>
-            <li><a href="https://glitchlb.com" rel="noopener" target="_blank">glitchlb.com<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a> <span class="muted">· Shopify</span></li>
-            <!-- TODO(Riad): citylawfirm.co's SSL certificate expired (checked 20 Nov 2026). Link it once it's renewed. -->
-            <li><span class="muted">citylawfirm.co</span></li>
+        <article class="card card-wide reveal">
+          <div class="wide-head">
+            <span class="skill-icon wide-icon" aria-hidden="true"><svg class="icon"><use href="#i-globe"/></svg></span>
+            <div>
+              <p class="card-meta">2024 – 2026 · <span data-i18n="proj.client">مشروع لعميل</span></p>
+              <h4 data-i18n="work.4.name">مواقع إلكترونية للعملاء</h4>
+            </div>
+          </div>
+          <p data-i18n="work.4.desc">موقعان لأكاديميتي جراحة أعصاب مع التسجيل في الدورات عبر الإنترنت، ومتجر على Shopify، وموقع لمكتب محاماة.</p>
+          <!-- TODO(Riad): citylawfirm.co is left out because its SSL certificate expired (checked 20 Nov 2026). Add a tile once it's renewed. -->
+          <ul class="site-tiles">
+            <li><a href="https://yasargil-mna.org" rel="noopener" target="_blank"><span class="tile-domain">yasargil-mna.org<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></span><span class="tile-desc" data-i18n="site.course">أكاديمية جراحة الأعصاب · التسجيل في الدورات</span><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a></li>
+            <li><a href="https://neurosurgeryacademy.org" rel="noopener" target="_blank"><span class="tile-domain">neurosurgeryacademy.org<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></span><span class="tile-desc" data-i18n="site.course">أكاديمية جراحة الأعصاب · التسجيل في الدورات</span><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a></li>
+            <li><a href="https://glitchlb.com" rel="noopener" target="_blank"><span class="tile-domain">glitchlb.com<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></span><span class="tile-desc" data-i18n="site.shop">متجر إلكتروني على Shopify</span><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a></li>
           </ul>
         </article>
       </div>
@@ -308,7 +316,9 @@
           <button type="button" class="filter" data-filter="mobile" aria-pressed="false" data-i18n="filter.mobile">تطبيقات الهواتف</button>
         </div>
       </div>
-      <!-- TODO(Riad): GitHub / live demo / Hugging Face URL for each card (no public repos found on 20 Nov 2026). Add them as .card-links. -->
+      <!-- TODO(Riad): GitHub / live demo / Hugging Face URL per card (no public repos or Spaces found on 20 Nov 2026).
+           When a link exists, replace that card's <p class="proof"> with:
+           <div class="card-links"><a href="../URL" rel="noopener" target="_blank" class="proof-link"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></div> -->
       <div class="projects-grid" id="personalGrid">
         <article class="card reveal" data-cat="ai">
           <div class="thumb thumb-ai" aria-hidden="true"><svg class="icon"><use href="#i-search-doc"/></svg><span class="thumb-word" lang="ar">مستشار</span></div>
@@ -317,6 +327,7 @@
           <p data-i18n="proj.1.desc">اطرح أسئلة عن مستنداتك بالعربية أو الإنجليزية واحصل على إجابات مع ذكر المصادر، مع حسابات مستخدمين ومساحات عمل منفصلة.</p>
           <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.1.q">تم التحقق من دقة الاستشهادات وفصل بيانات المستخدمين وهجمات حقن التعليمات</span></p>
           <ul class="chips" aria-label="التقنيات" data-i18n-aria="proj.tech"><li>Python</li><li>LangChain</li><li>ChromaDB</li></ul>
+          <p class="proof"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="proj.private">الكود غير منشور بعد</span></p>
         </article>
 
         <article class="card reveal" data-cat="ai">
@@ -326,6 +337,7 @@
           <p data-i18n="proj.4.desc">وكلاء ذكاء اصطناعي يفرزون الطلبات الواردة، ويوافق شخص على كل قرار، وتُسجَّل كل خطوة في سجل تدقيق.</p>
           <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.4.q">تم التحقق من تسليم المهام بين الوكلاء وخطوات الموافقة</span></p>
           <ul class="chips" aria-label="التقنيات" data-i18n-aria="proj.tech"><li>LangGraph</li><li>CrewAI</li><li>Pydantic</li></ul>
+          <p class="proof"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="proj.private">الكود غير منشور بعد</span></p>
         </article>
 
         <!-- TODO(Riad): benchmark result ("X% accuracy vs GPT at Y× lower cost") + Hugging Face Space URL. -->
@@ -336,6 +348,7 @@
           <p data-i18n="proj.3.desc">نموذج LLM صغير مفتوح المصدر مضبوط بتقنية QLoRA لتصنيف الملاحظات العربية، ومنشور على Hugging Face Spaces.</p>
           <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.3.q">تمت مقارنته بـ GPT من حيث الدقة والتكلفة</span></p>
           <ul class="chips" aria-label="التقنيات" data-i18n-aria="proj.tech"><li>QLoRA</li><li>Hugging Face</li><li>Python</li></ul>
+          <p class="proof"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="proj.private">الكود غير منشور بعد</span></p>
         </article>
 
         <article class="card reveal" data-cat="ai">
@@ -345,6 +358,7 @@
           <p data-i18n="proj.5.desc">يحوّل تسجيلات الاجتماعات بالعربية أو الإنجليزية إلى محاضر بالقرارات وبنود المتابعة. يعمل دون اتصال ويصدّر إلى Word أو PDF.</p>
           <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.5.q">تم اختباره على تسجيلات عربية وإنجليزية ومختلطة</span></p>
           <ul class="chips" aria-label="التقنيات" data-i18n-aria="proj.tech"><li>faster-whisper</li><li>OpenAI</li><li>Python</li></ul>
+          <p class="proof"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="proj.private">الكود غير منشور بعد</span></p>
         </article>
 
         <article class="card reveal" data-cat="mobile ai">
@@ -354,6 +368,7 @@
           <p data-i18n="proj.6.desc">تطبيق Flutter يعمل دون اتصال يقرأ الفواتير عبر Vision LLM، مع ضريبة القيمة المضافة الإماراتية والميزانيات والتقارير وقفل التطبيق.</p>
           <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.6.q">تمت مطابقة المبالغ والضريبة مع فواتير حقيقية</span></p>
           <ul class="chips" aria-label="التقنيات" data-i18n-aria="proj.tech"><li>Flutter</li><li>Drift</li><li>Vision LLM</li></ul>
+          <p class="proof"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="proj.private">الكود غير منشور بعد</span></p>
         </article>
 
         <article class="card reveal" data-cat="mobile">
@@ -363,6 +378,7 @@
           <p data-i18n="proj.7.desc">متتبّع عادات بالعربية والإنجليزية مع سلاسل إنجاز وتقويم هجري ونسخ احتياطية مشفّرة واختبارات آلية.</p>
           <p class="quality"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="proj.7.q">تم التحقق من منطق السلاسل والتواريخ والنسخ الاحتياطي والاستعادة</span></p>
           <ul class="chips" aria-label="التقنيات" data-i18n-aria="proj.tech"><li>Flutter</li><li>Drift</li></ul>
+          <p class="proof"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="proj.private">الكود غير منشور بعد</span></p>
         </article>
       </div>
       <p class="more-link reveal"><a href="https://github.com/riadbaytamouni" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span data-i18n="proj.more">حسابي على GitHub</span><span class="sr-only" data-i18n="a11y.newTab">(يفتح في علامة تبويب جديدة)</span></a></p>
