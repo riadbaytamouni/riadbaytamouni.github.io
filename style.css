@@ -69,6 +69,21 @@ img { max-width: 100%; height: auto; display: block; }
 
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -100px;
+  z-index: 200;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.skip-link:focus { top: 1rem; color: var(--accent-contrast); }
+
+section[id] { scroll-margin-top: 72px; }
+
 /* ============ Navbar ============ */
 .navbar {
   position: sticky;
@@ -190,16 +205,30 @@ html[dir="rtl"] .hero {
   color: var(--accent);
 }
 
-.hero-tagline {
-  margin-top: 1.25rem;
-  font-size: clamp(1.15rem, 3vw, 1.5rem);
-  font-weight: 600;
-  font-family: var(--font-en-head);
+.hero-sub { margin-top: 1.25rem; color: var(--text-muted); max-width: 620px; font-size: 1.05rem; }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2.75rem;
+  max-width: 680px;
 }
+.stat {
+  border-inline-start: 2px solid var(--accent);
+  padding-inline-start: 0.9rem;
+}
+.stat dt {
+  font-family: var(--font-en-head);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+.stat dd { color: var(--text-muted); font-size: 0.875rem; margin-top: 0.25rem; }
 
-html[lang="ar"] .hero-tagline { font-family: var(--font-ar); }
-
-.hero-sub { margin-top: 1rem; color: var(--text-muted); max-width: 620px; }
+@media (max-width: 560px) {
+  .stats { grid-template-columns: 1fr; gap: 0.85rem; }
+}
 
 .hero-cta { display: flex; gap: 0.85rem; flex-wrap: wrap; margin-top: 2rem; }
 
@@ -318,7 +347,23 @@ html[lang="ar"] .hero-tagline { font-family: var(--font-ar); }
 }
 .role h4 { font-size: 1.02rem; }
 .role .role-date { margin: 0.15rem 0 0.5rem; }
-.role p:last-child, .timeline-item > p:last-child { color: var(--text-muted); }
+.bullets {
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+  color: var(--text-muted);
+}
+.bullets li { position: relative; padding-inline-start: 1.1rem; }
+.bullets li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
 
 /* ============ Projects ============ */
 .projects-grid {
@@ -343,8 +388,35 @@ html[lang="ar"] .hero-tagline { font-family: var(--font-ar); }
   box-shadow: var(--shadow);
 }
 
-.card h3 { font-size: 1.08rem; }
-.card p { color: var(--text-muted); font-size: 0.94rem; flex-grow: 1; }
+.subsection-title {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin: 0 0 1.25rem;
+  font-weight: 600;
+}
+.projects-grid + .subsection-title { margin-top: 3rem; }
+
+.card h4 { font-size: 1.08rem; }
+.card p { color: var(--text-muted); font-size: 0.94rem; }
+.card > p:not(.card-meta):not(.tested) { flex-grow: 1; }
+.card .card-meta {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: -0.5rem;
+}
+.card .tested {
+  font-size: 0.875rem;
+  border-inline-start: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  padding-inline-start: 0.7rem;
+}
+.card .tested strong { color: var(--text); }
+
+.site-list { list-style: none; display: grid; gap: 0.35rem; font-size: 0.92rem; }
+.site-list span { color: var(--text-muted); }
+.muted { color: var(--text-muted); }
+
+.more-link { margin-top: 2rem; font-weight: 600; }
 
 .chips {
   list-style: none;
@@ -393,6 +465,8 @@ html[data-theme="light"] .chips li { color: var(--accent-strong); }
 .edu-date { color: var(--accent); font-weight: 600; font-size: 0.9rem; white-space: nowrap; }
 
 /* ============ Contact ============ */
+.contact-lead { color: var(--text-muted); max-width: 620px; margin-bottom: 1.5rem; }
+
 .contact-strip {
   display: flex;
   flex-wrap: wrap;
@@ -418,3 +492,5 @@ html[data-theme="light"] .chips li { color: var(--accent-strong); }
   transition: opacity 0.55s ease-out, transform 0.55s ease-out;
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
+
+.work-grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
